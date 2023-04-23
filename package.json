@@ -1,0 +1,15 @@
+{
+  "name": "mailbrew-export",
+  "version": "1.0.0",
+  "description": "",
+  "main": "export-read.js",
+  "scripts": {
+    "export": "node export-read.js",
+    "csv": "node csv.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0"
+  }
+}
